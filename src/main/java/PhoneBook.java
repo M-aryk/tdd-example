@@ -20,6 +20,12 @@ public class PhoneBook {
     }
 
     public String findByName(String name) {
-        return null;
+        String findingNumber = null;
+        for (Map.Entry<String, String> phone : myPhoneBook.entrySet()) {
+            if (phone.getKey().contains(name)) {
+                findingNumber = phone.getValue();
+            }
+        }
+        return findingNumber;
     }
 }
