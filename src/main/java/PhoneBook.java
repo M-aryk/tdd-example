@@ -1,4 +1,5 @@
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class PhoneBook {
@@ -27,5 +28,9 @@ public class PhoneBook {
             }
         }
         return findingNumber;
+    }
+
+    public Set<String> printAllNames(){
+        return null;
     }
 }
