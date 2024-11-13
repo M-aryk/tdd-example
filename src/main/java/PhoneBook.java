@@ -8,4 +8,8 @@ public class PhoneBook {
         myPhoneBook.put(name, number);
         return myPhoneBook.size();
     }
+
+    public String findByNumber(String number){
+        return null;
+    }
 }
